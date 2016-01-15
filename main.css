@@ -44,6 +44,7 @@ h1 {
 
 #container {
 	width:600px;
+	margin:auto;
 }
 ul {
 	padding:0;
