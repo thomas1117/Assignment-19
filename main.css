@@ -20,7 +20,9 @@
   font-family: 'zocial', sans-serif;
 }
 
-
+body {
+	margin:0;
+}
 
 
 #myPeeps {
@@ -45,6 +47,11 @@ h1 {
 #container {
 	width:600px;
 	margin:auto;
+}
+@media(max-width: 600px){
+	#container {
+		width:100%;
+	}
 }
 ul {
 	padding:0;
